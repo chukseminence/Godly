@@ -1,0 +1,106 @@
+*{
+    box-decoration-break: clone;
+}
+
+body{
+    background-color:rgba(216, 226, 240, 0.986);
+    border: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: inherit;
+    color:rgb(90, 56, 241);
+    position: relative; border-top-left-radius: 10px;
+     
+    padding-top: 10%;
+    justify-content: space-between;
+     }
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: color rgb(24, 119, 242);
+    width: 1300px;
+    height: 200px;
+    margin-bottom: 30%; 
+    padding-top: 10%;
+    position: relative;
+    vertical-align: calc();
+}
+
+
+.call{
+    background-color: white;
+    color: white;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: inset;
+    height: 30px;
+}
+    
+    
+
+.city {
+    background-color: white;
+    color: white;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: inset;
+    height: 30px;
+  }
+
+  .submit {
+    background-color: rgb(106, 106, 241);
+    color: white
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    text-decoration: aliceblue;
+    font-size: medium;
+    font-family: inherit;
+  }
+
+  h3{
+    color: white
+    font-size:mintcream
+    
+  }
+
+  .value {
+    background-color: rgb(76, 214, 76);
+    color:white;
+    border: 3px;
+    margin: 10px;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+    font-family: inherit;
+    text-decoration-color: white;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 100px;
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    
+
+}
+
